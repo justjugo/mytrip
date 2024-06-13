@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+*
+{
+  padding: 0%;
+  margin: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headercontainer
+{
+  background-color: rgb(237, 241, 242);
+  height: 80px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  position: fixed;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds bottom shadow */
+
+  
 }
 
-.App-link {
-  color: #61dafb;
+.nav
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav li 
+{
+  list-style: none;
 }
+
+nav a 
+{
+  text-decoration: none;
+  padding: 20px;
+  color:black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ 
+}
+
+nav a:hover
+{
+  color: antiquewhite;
+  
+}
+.logo
+{
+ margin: 20px;
+ padding: 10px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ letter-spacing: 10px;
+ color: rgb(247, 81, 44);
+}
+
+.main
+{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  height: 350px;
+  font-size: large;
+  background-image: url(./images/pic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  color: aliceblue;
+  
+}
+
+.trips
+{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+   
+ 
+}
+
+.trips h2
+{
+  padding: 10px;
+}
+
+.trips h5
+{
+  padding: 10px;
+}
+.card-img
+{
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+
+.localisation 
+{
+  display: flex;
+}
+
+.localisation img
+{
+  width: 15px;
+}
+
+.localisation h5
+{
+  margin-top: 10px;
+}
+
+
+.localisation a
+{
+  margin-top: 20px;
+  color: rgb(196, 190, 182);
+  
+}
+
+
+
+
+
+
