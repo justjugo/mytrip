@@ -119,8 +119,42 @@ nav a:hover
   
 }
 
+.form
+{
+  padding: 20px;
+}
 
+.form-text
+{
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 10px;
+  border: 0cap;
+}
 
+.form-button
+{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(238, 96, 209);
+  border: 0cap;
+  
+}
 
-
+.info
+{
+  display: flex;
+  flex-direction: row;
+}
+.like
+{
+  background-color: white;
+  border: 0cap;
+}
+.like img
+{
+  width: 20px;
+}
 
